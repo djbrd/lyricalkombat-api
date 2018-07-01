@@ -132,3 +132,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CORS_ORIGIN_ALLOW_ALL = True
+
+import django_heroku
+django_heroku.settings(locals())
