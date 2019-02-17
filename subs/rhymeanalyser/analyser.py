@@ -235,6 +235,12 @@ class Analyser():
         return result
 
 
+    def get_score(self):
+        result = {}
+        result['score'] = len(self.rhymes) * 10
+        return result
+
+
     def create_marked_up_text(self):
         marked_up = ''
 
